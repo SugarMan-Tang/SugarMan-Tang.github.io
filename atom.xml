@@ -5,9 +5,9 @@
   <subtitle>这个世界太浮躁，静下来慢慢来</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2019-01-17T08:21:25.686Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://sugarman-tang.github.io/"/>
+  <updated>2019-01-17T08:28:00.081Z</updated>
+  <id>http://sugarman-tang.github.io/</id>
   
   <author>
     <name>Finn tang</name>
@@ -17,13 +17,20 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo descript</title>
-    <link href="http://yoursite.com/2019/01/17/hexo-descript/"/>
-    <id>http://yoursite.com/2019/01/17/hexo-descript/</id>
+    <title>Hexo Descript</title>
+    <link href="http://sugarman-tang.github.io/2019/01/17/hexo-descript/"/>
+    <id>http://sugarman-tang.github.io/2019/01/17/hexo-descript/</id>
     <published>2019-01-17T08:20:30.000Z</published>
-    <updated>2019-01-17T08:21:25.686Z</updated>
+    <updated>2019-01-17T08:28:00.081Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="build-and-configure-hexo-site"><a href="#build-and-configure-hexo-site" class="headerlink" title="build and configure hexo site"></a>build and configure hexo site</h3><p>build hexo on mac: (<a href="https://blog.csdn.net/tx874828503/article/details/51577815" target="_blank" rel="noopener">https://blog.csdn.net/tx874828503/article/details/51577815</a>)</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;build-and-configure-hexo-site&quot;&gt;&lt;a href=&quot;#build-and-configure-hexo-site&quot; class=&quot;headerlink&quot; title=&quot;build and configure hexo site&quot;&gt;&lt;/a
+      
     
     </summary>
     
@@ -32,8 +39,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/01/17/hello-world/"/>
-    <id>http://yoursite.com/2019/01/17/hello-world/</id>
+    <link href="http://sugarman-tang.github.io/2019/01/17/hello-world/"/>
+    <id>http://sugarman-tang.github.io/2019/01/17/hello-world/</id>
     <published>2019-01-17T01:29:15.047Z</published>
     <updated>2019-01-17T01:29:15.047Z</updated>
     
