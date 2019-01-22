@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[ssh 免密登陆]]></title>
     <url>%2F2019%2F01%2F22%2Fssh-%E5%85%8D%E5%AF%86%E7%99%BB%E9%99%86%2F</url>
-    <content type="text"><![CDATA[ssh免密码登陆配置客户端a用户名 ：testIP :192.168.1.119 服务器b用户名: compilerIP:192.168.1.20 在客户端a上执行如下操作‘’’ bashssh-keygen -t rsassh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20‘’’ 客户端测试:‘’’ bashssh compiler@192.168.1.20‘’’]]></content>
+    <content type="text"><![CDATA[ssh免密码登陆配置客户端a用户名 ：testIP :192.168.1.119 服务器b用户名: compilerIP:192.168.1.20 在客户端a上执行如下操作12$ ssh-keygen -t rsa $ ssh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20 客户端测试:1$ ssh compiler@192.168.1.20]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hexo Descript]]></title>

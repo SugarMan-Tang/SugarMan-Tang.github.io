@@ -81,17 +81,17 @@
 
 
 
-<meta name="description" content="ssh免密码登陆配置客户端a用户名 ：testIP :192.168.1.119 服务器b用户名: compilerIP:192.168.1.20 在客户端a上执行如下操作‘’’ bashssh-keygen -t rsassh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20‘’’ 客户端测试:‘’’ bashssh compiler@192.">
+<meta name="description" content="ssh免密码登陆配置客户端a用户名 ：testIP :192.168.1.119 服务器b用户名: compilerIP:192.168.1.20 在客户端a上执行如下操作12$ ssh-keygen -t rsa $ ssh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20 客户端测试:1$ ssh compiler@192.168.1.20">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ssh 免密登陆">
 <meta property="og:url" content="http://sugarman-tang.github.io/2019/01/22/ssh-免密登陆/index.html">
 <meta property="og:site_name" content="以梦为马">
-<meta property="og:description" content="ssh免密码登陆配置客户端a用户名 ：testIP :192.168.1.119 服务器b用户名: compilerIP:192.168.1.20 在客户端a上执行如下操作‘’’ bashssh-keygen -t rsassh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20‘’’ 客户端测试:‘’’ bashssh compiler@192.">
+<meta property="og:description" content="ssh免密码登陆配置客户端a用户名 ：testIP :192.168.1.119 服务器b用户名: compilerIP:192.168.1.20 在客户端a上执行如下操作12$ ssh-keygen -t rsa $ ssh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20 客户端测试:1$ ssh compiler@192.168.1.20">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-22T10:13:45.057Z">
+<meta property="og:updated_time" content="2019-01-22T10:33:06.376Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ssh 免密登陆">
-<meta name="twitter:description" content="ssh免密码登陆配置客户端a用户名 ：testIP :192.168.1.119 服务器b用户名: compilerIP:192.168.1.20 在客户端a上执行如下操作‘’’ bashssh-keygen -t rsassh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20‘’’ 客户端测试:‘’’ bashssh compiler@192.">
+<meta name="twitter:description" content="ssh免密码登陆配置客户端a用户名 ：testIP :192.168.1.119 服务器b用户名: compilerIP:192.168.1.20 在客户端a上执行如下操作12$ ssh-keygen -t rsa $ ssh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20 客户端测试:1$ ssh compiler@192.168.1.20">
 
 
 
@@ -363,9 +363,8 @@
       
         <h2 id="ssh免密码登陆配置"><a href="#ssh免密码登陆配置" class="headerlink" title="ssh免密码登陆配置"></a>ssh免密码登陆配置</h2><h3 id="客户端a"><a href="#客户端a" class="headerlink" title="客户端a"></a>客户端a</h3><p>用户名 ：test<br>IP :192.168.1.119</p>
 <h3 id="服务器b"><a href="#服务器b" class="headerlink" title="服务器b"></a>服务器b</h3><p>用户名: compiler<br>IP:192.168.1.20</p>
-<h3 id="在客户端a上执行如下操作"><a href="#在客户端a上执行如下操作" class="headerlink" title="在客户端a上执行如下操作"></a>在客户端a上执行如下操作</h3><p>‘’’ bash<br>ssh-keygen -t rsa<br>ssh-copy-id -i ~/.ssh/id_rsa.pub <a href="mailto:compiler@192.168.1.20" target="_blank" rel="noopener">compiler@192.168.1.20</a><br>‘’’</p>
-<h3 id="客户端测试"><a href="#客户端测试" class="headerlink" title="客户端测试:"></a>客户端测试:</h3><p>‘’’ bash<br>ssh <a href="mailto:compiler@192.168.1.20" target="_blank" rel="noopener">compiler@192.168.1.20</a><br>‘’’</p>
-
+<h3 id="在客户端a上执行如下操作"><a href="#在客户端a上执行如下操作" class="headerlink" title="在客户端a上执行如下操作"></a>在客户端a上执行如下操作</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa </span><br><span class="line">$ ssh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20</span><br></pre></td></tr></table></figure>
+<h3 id="客户端测试"><a href="#客户端测试" class="headerlink" title="客户端测试:"></a>客户端测试:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh compiler@192.168.1.20</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -635,7 +634,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共166字</span>
+  <span class="post-count">博客全站共168字</span>
 </div>
 
         
