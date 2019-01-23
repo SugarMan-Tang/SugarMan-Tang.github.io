@@ -81,17 +81,17 @@
 
 
 
-<meta name="description" content="Ubuntu 搭建samba共享方案samba服务安装搭建12sudo apt-get install sambasudo vim /etc/samba/smb.conf workgroup = szsoft设置用户密码登陆方式security=user 不需要用户密码登陆配置123456789sudo vim /etc/samba/smb.conf[share]path = /home/user">
+<meta name="description" content="个人技术杂谈，积累沉淀稳步向前">
 <meta property="og:type" content="article">
-<meta property="og:title" content="linux samba 配置">
-<meta property="og:url" content="http://sugarman-tang.github.io/2019/01/23/linux-samba-配置/index.html">
+<meta property="og:title" content="test image">
+<meta property="og:url" content="http://sugarman-tang.github.io/2019/01/23/test-image/index.html">
 <meta property="og:site_name" content="以梦为马">
-<meta property="og:description" content="Ubuntu 搭建samba共享方案samba服务安装搭建12sudo apt-get install sambasudo vim /etc/samba/smb.conf workgroup = szsoft设置用户密码登陆方式security=user 不需要用户密码登陆配置123456789sudo vim /etc/samba/smb.conf[share]path = /home/user">
+<meta property="og:description" content="个人技术杂谈，积累沉淀稳步向前">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-23T07:38:51.026Z">
+<meta property="og:updated_time" content="2019-01-23T07:50:56.825Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="linux samba 配置">
-<meta name="twitter:description" content="Ubuntu 搭建samba共享方案samba服务安装搭建12sudo apt-get install sambasudo vim /etc/samba/smb.conf workgroup = szsoft设置用户密码登陆方式security=user 不需要用户密码登陆配置123456789sudo vim /etc/samba/smb.conf[share]path = /home/user">
+<meta name="twitter:title" content="test image">
+<meta name="twitter:description" content="个人技术杂谈，积累沉淀稳步向前">
 
 
 
@@ -121,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://sugarman-tang.github.io/2019/01/23/linux-samba-配置/">
+  <link rel="canonical" href="http://sugarman-tang.github.io/2019/01/23/test-image/">
 
 
 
 
 
-  <title>linux samba 配置 | 以梦为马</title>
+  <title>test image | 以梦为马</title>
   
 
 
@@ -254,7 +254,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://sugarman-tang.github.io/2019/01/23/linux-samba-配置/">
+    <link itemprop="mainEntityOfPage" href="http://sugarman-tang.github.io/2019/01/23/test-image/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Finn tang">
@@ -271,7 +271,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">linux samba 配置</h1>
+          <h1 class="post-title" itemprop="name headline">test image</h1>
         
 
         <div class="post-meta">
@@ -283,7 +283,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-23T15:25:53+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-23T15:50:56+08:00">
                 2019-01-23
               </time>
             
@@ -321,18 +321,7 @@
       
 
       
-        <h2 id="Ubuntu-搭建samba共享方案"><a href="#Ubuntu-搭建samba共享方案" class="headerlink" title="Ubuntu 搭建samba共享方案"></a>Ubuntu 搭建samba共享方案</h2><h3 id="samba服务安装搭建"><a href="#samba服务安装搭建" class="headerlink" title="samba服务安装搭建"></a>samba服务安装搭建</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install samba</span><br><span class="line">sudo vim /etc/samba/smb.conf</span><br></pre></td></tr></table></figure>
-<p>workgroup = szsoft<br>设置用户密码登陆方式security=user</p>
-<h3 id="不需要用户密码登陆配置"><a href="#不需要用户密码登陆配置" class="headerlink" title="不需要用户密码登陆配置"></a>不需要用户密码登陆配置</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/samba/smb.conf</span><br><span class="line">[share]</span><br><span class="line">path = /home/username/share</span><br><span class="line">available=yes</span><br><span class="line">browseable=yes</span><br><span class="line">public=yes</span><br><span class="line">writable=yes</span><br><span class="line">create mask=0777</span><br><span class="line">directory mask=0777</span><br></pre></td></tr></table></figure>
-<h3 id="需要用户名密码登陆"><a href="#需要用户名密码登陆" class="headerlink" title="需要用户名密码登陆"></a>需要用户名密码登陆</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/samba/smb.conf</span><br><span class="line">[share]</span><br><span class="line">path = /home/username/share</span><br><span class="line">available=yes</span><br><span class="line">browseable=yes</span><br><span class="line">public=no</span><br><span class="line">writable=yes</span><br><span class="line">create mask=0777</span><br><span class="line">directory mask=0777</span><br><span class="line">valid users=username</span><br></pre></td></tr></table></figure>
-<p>保存，退出</p>
-<h3 id="新建samba用户，设置密码"><a href="#新建samba用户，设置密码" class="headerlink" title="新建samba用户，设置密码"></a>新建samba用户，设置密码</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo smbpasswd -a username</span><br></pre></td></tr></table></figure>
-<h3 id="重启samba服务"><a href="#重启samba服务" class="headerlink" title="重启samba服务"></a>重启samba服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /etc/init.d/smbd restart</span><br></pre></td></tr></table></figure>
-<h3 id="windows环境测试"><a href="#windows环境测试" class="headerlink" title="windows环境测试"></a>windows环境测试</h3><p>运行-&gt;输入cmd<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure></p>
-<p>get host ip 192.168.1.38<br>windows测试samba功能<br>运行\:192.168.1.38<br>在涉及权限问题时，一部分是linux下用户所属组和用户名，linux文件权限和用户密码，samba服务也会创建相应的用户和密码</p>
-<h3 id="常见问题记录"><a href="#常见问题记录" class="headerlink" title="常见问题记录"></a>常见问题记录</h3><p>windows下可能会提示输入错误，在一台电脑上登陆两个需要输入密码的目录会报错<br>进入dos窗口，执行 net use \192.168.1.20\IPC$ /del 可以删除多余的连接<br>或者net use * /del 删除所有的链接记录</p>
-<p>有共同爱好或对相关内容有疑问的朋友可以评论或发送邮件给我<a href="mailto:645438637@qq.com" target="_blank" rel="noopener">645438637@qq.com</a> 共同探讨深入学习，共同成长共同进步。</p>
-
+        
       
     </div>
     
@@ -352,7 +341,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://sugarman-tang.github.io/2019/01/23/linux-samba-配置/" title="linux samba 配置">http://sugarman-tang.github.io/2019/01/23/linux-samba-配置/</a>
+    <a href="http://sugarman-tang.github.io/2019/01/23/test-image/" title="test image">http://sugarman-tang.github.io/2019/01/23/test-image/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -374,8 +363,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/01/22/ssh-免密登陆/" rel="next" title="ssh 免密登陆">
-                <i class="fa fa-chevron-left"></i> ssh 免密登陆
+              <a href="/2019/01/23/linux-samba-配置/" rel="next" title="linux samba 配置">
+                <i class="fa fa-chevron-left"></i> linux samba 配置
               </a>
             
           </div>
@@ -383,10 +372,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/01/23/test-image/" rel="prev" title="test image">
-                test image <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -438,17 +423,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -515,22 +491,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu-搭建samba共享方案"><span class="nav-number">1.</span> <span class="nav-text">Ubuntu 搭建samba共享方案</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#samba服务安装搭建"><span class="nav-number">1.1.</span> <span class="nav-text">samba服务安装搭建</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#不需要用户密码登陆配置"><span class="nav-number">1.2.</span> <span class="nav-text">不需要用户密码登陆配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#需要用户名密码登陆"><span class="nav-number">1.3.</span> <span class="nav-text">需要用户名密码登陆</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#新建samba用户，设置密码"><span class="nav-number">1.4.</span> <span class="nav-text">新建samba用户，设置密码</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#重启samba服务"><span class="nav-number">1.5.</span> <span class="nav-text">重启samba服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#windows环境测试"><span class="nav-number">1.6.</span> <span class="nav-text">windows环境测试</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常见问题记录"><span class="nav-number">1.7.</span> <span class="nav-text">常见问题记录</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       

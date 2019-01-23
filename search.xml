@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[test image]]></title>
+    <url>%2F2019%2F01%2F23%2Ftest-image%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[linux samba 配置]]></title>
     <url>%2F2019%2F01%2F23%2Flinux-samba-%E9%85%8D%E7%BD%AE%2F</url>
     <content type="text"><![CDATA[Ubuntu 搭建samba共享方案samba服务安装搭建12sudo apt-get install sambasudo vim /etc/samba/smb.conf workgroup = szsoft设置用户密码登陆方式security=user 不需要用户密码登陆配置123456789sudo vim /etc/samba/smb.conf[share]path = /home/username/shareavailable=yesbrowseable=yespublic=yeswritable=yescreate mask=0777directory mask=0777 需要用户名密码登陆12345678910sudo vim /etc/samba/smb.conf[share]path = /home/username/shareavailable=yesbrowseable=yespublic=nowritable=yescreate mask=0777directory mask=0777valid users=username 保存，退出 新建samba用户，设置密码1sudo smbpasswd -a username 重启samba服务1sudo /etc/init.d/smbd restart windows环境测试运行-&gt;输入cmd1ifconfig get host ip 192.168.1.38windows测试samba功能运行\:192.168.1.38在涉及权限问题时，一部分是linux下用户所属组和用户名，linux文件权限和用户密码，samba服务也会创建相应的用户和密码 常见问题记录windows下可能会提示输入错误，在一台电脑上登陆两个需要输入密码的目录会报错进入dos窗口，执行 net use \192.168.1.20\IPC$ /del 可以删除多余的连接或者net use * /del 删除所有的链接记录 有共同爱好或对相关内容有疑问的朋友可以评论或发送邮件给我645438637@qq.com 共同探讨深入学习，共同成长共同进步。]]></content>

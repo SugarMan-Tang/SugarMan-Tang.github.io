@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sugarman-tang.github.io/2019/01/23/test-image/</loc>
+    
+    <lastmod>2019-01-23T07:50:56.825Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sugarman-tang.github.io/2019/01/23/linux-samba-%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2019-01-23T07:38:51.026Z</lastmod>
@@ -30,7 +37,7 @@
   </url>
   
   <url>
-    <loc>http://sugarman-tang.github.io/categories/hexo-descript.html</loc>
+    <loc>http://sugarman-tang.github.io/hexo-descript.html</loc>
     
     <lastmod>2019-01-18T03:49:03.824Z</lastmod>
     
