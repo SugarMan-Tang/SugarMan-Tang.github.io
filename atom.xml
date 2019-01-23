@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sugarman-tang.github.io/"/>
-  <updated>2019-01-22T10:33:06.376Z</updated>
+  <updated>2019-01-23T07:38:51.026Z</updated>
   <id>http://sugarman-tang.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux samba 配置</title>
+    <link href="http://sugarman-tang.github.io/2019/01/23/linux-samba-%E9%85%8D%E7%BD%AE/"/>
+    <id>http://sugarman-tang.github.io/2019/01/23/linux-samba-配置/</id>
+    <published>2019-01-23T07:25:53.000Z</published>
+    <updated>2019-01-23T07:38:51.026Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Ubuntu-搭建samba共享方案&quot;&gt;&lt;a href=&quot;#Ubuntu-搭建samba共享方案&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu 搭建samba共享方案&quot;&gt;&lt;/a&gt;Ubuntu 搭建samba共享方案&lt;/h2&gt;&lt;h3 id=&quot;s
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>ssh 免密登陆</title>
