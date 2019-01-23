@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sugarman-tang.github.io/categories/index.html</loc>
+    
+    <lastmod>2019-01-22T12:43:01.166Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sugarman-tang.github.io/about/index.html</loc>
+    
+    <lastmod>2019-01-22T10:45:40.572Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sugarman-tang.github.io/2019/01/22/ssh-%E5%85%8D%E5%AF%86%E7%99%BB%E9%99%86/</loc>
     
     <lastmod>2019-01-22T10:33:06.376Z</lastmod>
@@ -9,7 +23,7 @@
   </url>
   
   <url>
-    <loc>http://sugarman-tang.github.io/2019/01/17/hexo-descript/</loc>
+    <loc>http://sugarman-tang.github.io/categories/hexo-descript.html</loc>
     
     <lastmod>2019-01-18T03:49:03.824Z</lastmod>
     
@@ -19,20 +33,6 @@
     <loc>http://sugarman-tang.github.io/404.html</loc>
     
     <lastmod>2019-01-17T10:27:43.648Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sugarman-tang.github.io/about/index.html</loc>
-    
-    <lastmod>2019-01-17T10:15:50.574Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sugarman-tang.github.io/categories/index.html</loc>
-    
-    <lastmod>2019-01-17T10:15:41.530Z</lastmod>
     
   </url>
   

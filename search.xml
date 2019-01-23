@@ -6,11 +6,6 @@
     <content type="text"><![CDATA[ssh免密码登陆配置客户端a用户名 ：testIP :192.168.1.119 服务器b用户名: compilerIP:192.168.1.20 在客户端a上执行如下操作12$ ssh-keygen -t rsa $ ssh-copy-id -i ~/.ssh/id_rsa.pub compiler@192.168.1.20 客户端测试:1$ ssh compiler@192.168.1.20]]></content>
   </entry>
   <entry>
-    <title><![CDATA[Hexo Descript]]></title>
-    <url>%2F2019%2F01%2F17%2Fhexo-descript%2F</url>
-    <content type="text"><![CDATA[build hexo sitebuild hexo on mac: (https://blog.csdn.net/tx874828503/article/details/51577815) configure nextconfigure and fix: (https://www.jianshu.com/p/9f0e90cc32c2)]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F01%2F17%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
